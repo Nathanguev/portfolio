@@ -137,7 +137,7 @@ export default function More() {
             {[1, 2, 3].map((item) => (
               <div key={item} className="aspect-square bg-muted rounded-md overflow-hidden relative group">
                 <img
-                  src={`https://raw.githubusercontent.com/Nathanguev/portfolio/main/public/hobby-${item}.webp`}
+                  src={`https://raw.githubusercontent.com/Nathanguev/portfolio/images/public/hobby-${item}.webp`}
                   alt={`Gallery image ${item}`}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
