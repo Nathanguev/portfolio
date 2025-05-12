@@ -55,8 +55,8 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <div className="relative h-12 w-12 rounded-full overflow-hidden border-2 border-primary transition-transform hover:scale-105 duration-300">
-            <img src="/placeholder.svg?height=100&width=100" alt="Nathan Guevara" className="object-cover" />
+          <div className="relative h-12 w-12 rounded-full overflow-hidden border-primary transition-transform hover:scale-105 duration-300">
+            <img src="https://raw.githubusercontent.com/Nathanguev/portfolio/main/public/portrait.jpg" alt="Nathan Guevara" className="object-cover" />
           </div>
           <h1 className="text-xl font-bold font-mono tracking-tight">Nathan Guevara</h1>
         </div>

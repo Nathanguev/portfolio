@@ -50,10 +50,11 @@ const translations = {
     "skills.tools": "Tools",
     "skills.systems": "Systems & Networking",
     "skills.soft": "Soft Skills",
-    "skills.soft.teamwork": "Teamwork",
-    "skills.soft.communication": "Communication",
-    "skills.soft.adaptability": "Adaptability",
-    "skills.soft.autonomy": "Autonomy",
+    "skills.soft.teamwork" : "Teamwork",
+    "skills.soft.communication" : "Communication",
+    "skills.soft.adaptability" : "Adaptability",
+    "skills.soft.autonomy" : "Autonomy",
+    
 
     // Experience
     "experience.title": "Experience",
@@ -82,18 +83,6 @@ const translations = {
     "experience.process.testing": "Testing & Feedback",
     "experience.process.documentation": "Documentation",
     "experience.reflection": "Reflection",
-
-    // AFTRAL internship process steps
-    "experience.aftral.process.analysis": "Analysis & Planning",
-    "experience.aftral.process.implementation": "Implementation",
-    "experience.aftral.process.testing": "Testing & Troubleshooting",
-    "experience.aftral.process.documentation": "Documentation & Handover",
-
-    // Toronto language trip process steps
-    "experience.toronto.process.arrival": "Arrival & Orientation",
-    "experience.toronto.process.adaptation": "Cultural Adaptation",
-    "experience.toronto.process.immersion": "Language Immersion",
-    "experience.toronto.process.return": "Return & Application",
 
     // Projects
     "projects.title": "Projects",
@@ -237,10 +226,10 @@ const translations = {
     "skills.tools": "Outils",
     "skills.systems": "Systèmes & Réseaux",
     "skills.soft": "Savoir-être",
-    "skills.soft.teamwork": "Travail d'équipe",
-    "skills.soft.communication": "Communication",
-    "skills.soft.adaptability": "Capacité d'adaptation",
-    "skills.soft.autonomy": "Autonomie",
+    "skills.soft.teamwork" : "Travail d'équipe",
+    "skills.soft.communication" : "Communication",
+    "skills.soft.adaptability" : "Capacité d'adaptation",
+    "skills.soft.autonomy" : "Autonomie",
 
     // Experience
     "experience.title": "Expérience",
@@ -269,18 +258,6 @@ const translations = {
     "experience.process.testing": "Tests & Retours",
     "experience.process.documentation": "Documentation",
     "experience.reflection": "Réflexion",
-
-    // AFTRAL internship process steps
-    "experience.aftral.process.analysis": "Analyse & Planification",
-    "experience.aftral.process.implementation": "Implémentation",
-    "experience.aftral.process.testing": "Tests & Dépannage",
-    "experience.aftral.process.documentation": "Documentation & Transfert",
-
-    // Toronto language trip process steps
-    "experience.toronto.process.arrival": "Arrivée & Orientation",
-    "experience.toronto.process.adaptation": "Adaptation Culturelle",
-    "experience.toronto.process.immersion": "Immersion Linguistique",
-    "experience.toronto.process.return": "Retour & Application",
 
     // Projects
     "projects.title": "Projets",

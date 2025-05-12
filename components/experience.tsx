@@ -126,71 +126,37 @@ export default function Experience() {
                   </div>
                 </div>
 
-                {/* Conditional diagram based on experience type */}
+                {/* Simple diagram showing workflow or process */}
                 <div className="py-4">
-                  {index === 0 ? (
-                    // AFTRAL Internship - Technical workflow diagram
-                    <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-xs text-center">
-                      <div className="bg-primary/10 p-3 rounded-md w-full md:w-1/4">
-                        <div className="bg-primary/20 rounded-full p-2 mx-auto w-10 h-10 flex items-center justify-center mb-2">
-                          <span className="font-bold">1</span>
-                        </div>
-                        <span>{t("experience.aftral.process.analysis")}</span>
+                  <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-xs text-center">
+                    <div className="bg-primary/10 p-3 rounded-md w-full md:w-1/4">
+                      <div className="bg-primary/20 rounded-full p-2 mx-auto w-10 h-10 flex items-center justify-center mb-2">
+                        <span className="font-bold">1</span>
                       </div>
-                      <div className="hidden md:block text-primary">→</div>
-                      <div className="bg-primary/10 p-3 rounded-md w-full md:w-1/4">
-                        <div className="bg-primary/20 rounded-full p-2 mx-auto w-10 h-10 flex items-center justify-center mb-2">
-                          <span className="font-bold">2</span>
-                        </div>
-                        <span>{t("experience.aftral.process.implementation")}</span>
-                      </div>
-                      <div className="hidden md:block text-primary">→</div>
-                      <div className="bg-primary/10 p-3 rounded-md w-full md:w-1/4">
-                        <div className="bg-primary/20 rounded-full p-2 mx-auto w-10 h-10 flex items-center justify-center mb-2">
-                          <span className="font-bold">3</span>
-                        </div>
-                        <span>{t("experience.aftral.process.testing")}</span>
-                      </div>
-                      <div className="hidden md:block text-primary">→</div>
-                      <div className="bg-primary/10 p-3 rounded-md w-full md:w-1/4">
-                        <div className="bg-primary/20 rounded-full p-2 mx-auto w-10 h-10 flex items-center justify-center mb-2">
-                          <span className="font-bold">4</span>
-                        </div>
-                        <span>{t("experience.aftral.process.documentation")}</span>
-                      </div>
+                      <span>{t("experience.process.planning")}</span>
                     </div>
-                  ) : (
-                    // Toronto Language Trip - Language immersion process diagram
-                    <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-xs text-center">
-                      <div className="bg-primary/10 p-3 rounded-md w-full md:w-1/4">
-                        <div className="bg-primary/20 rounded-full p-2 mx-auto w-10 h-10 flex items-center justify-center mb-2">
-                          <span className="font-bold">1</span>
-                        </div>
-                        <span>{t("experience.toronto.process.arrival")}</span>
+                    <div className="hidden md:block text-primary">→</div>
+                    <div className="bg-primary/10 p-3 rounded-md w-full md:w-1/4">
+                      <div className="bg-primary/20 rounded-full p-2 mx-auto w-10 h-10 flex items-center justify-center mb-2">
+                        <span className="font-bold">2</span>
                       </div>
-                      <div className="hidden md:block text-primary">→</div>
-                      <div className="bg-primary/10 p-3 rounded-md w-full md:w-1/4">
-                        <div className="bg-primary/20 rounded-full p-2 mx-auto w-10 h-10 flex items-center justify-center mb-2">
-                          <span className="font-bold">2</span>
-                        </div>
-                        <span>{t("experience.toronto.process.adaptation")}</span>
-                      </div>
-                      <div className="hidden md:block text-primary">→</div>
-                      <div className="bg-primary/10 p-3 rounded-md w-full md:w-1/4">
-                        <div className="bg-primary/20 rounded-full p-2 mx-auto w-10 h-10 flex items-center justify-center mb-2">
-                          <span className="font-bold">3</span>
-                        </div>
-                        <span>{t("experience.toronto.process.immersion")}</span>
-                      </div>
-                      <div className="hidden md:block text-primary">→</div>
-                      <div className="bg-primary/10 p-3 rounded-md w-full md:w-1/4">
-                        <div className="bg-primary/20 rounded-full p-2 mx-auto w-10 h-10 flex items-center justify-center mb-2">
-                          <span className="font-bold">4</span>
-                        </div>
-                        <span>{t("experience.toronto.process.return")}</span>
-                      </div>
+                      <span>{t("experience.process.implementation")}</span>
                     </div>
-                  )}
+                    <div className="hidden md:block text-primary">→</div>
+                    <div className="bg-primary/10 p-3 rounded-md w-full md:w-1/4">
+                      <div className="bg-primary/20 rounded-full p-2 mx-auto w-10 h-10 flex items-center justify-center mb-2">
+                        <span className="font-bold">3</span>
+                      </div>
+                      <span>{t("experience.process.testing")}</span>
+                    </div>
+                    <div className="hidden md:block text-primary">→</div>
+                    <div className="bg-primary/10 p-3 rounded-md w-full md:w-1/4">
+                      <div className="bg-primary/20 rounded-full p-2 mx-auto w-10 h-10 flex items-center justify-center mb-2">
+                        <span className="font-bold">4</span>
+                      </div>
+                      <span>{t("experience.process.documentation")}</span>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="bg-muted/30 p-4 rounded-md border border-dashed border-primary/20">
