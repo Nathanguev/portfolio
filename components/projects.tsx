@@ -184,12 +184,12 @@ export default function Projects() {
       details: {
         fullDescription: t("projects.server.description"),
         challenges: [
-          "Initial installation and setup of the Linux server environment",
-          "Deployed a web server using Nginx",
-          "Applied UFW rules and hardened the system with Fail2Ban",
-          "Secured SSH access using key-based authentication, disabling password login",
-          "Automated security updates and system monitoring",
-          "Developed Bash scripts for maintenance and system tasks",
+          t("projects.server.challenges.1"),
+          t("projects.server.challenges.2"),
+          t("projects.server.challenges.3"),
+          t("projects.server.challenges.4"),
+          t("projects.server.challenges.5"),
+          t("projects.server.challenges.6"),
         ],
         technologies: [
           { name: "Ubuntu Server", icon: <UbuntuIcon /> },
@@ -211,10 +211,10 @@ export default function Projects() {
       details: {
         fullDescription: t("projects.arduino.description"),
         challenges: [
-          "Built custom circuits with sensors, LCD displays, and buttons",
-          "Programmed microcontrollers to control LEDs, motors, and sensors",
-          "Designed and printed functional enclosures using 3D printers",
-          "Experimented with basic embedded systems and analog input/output",
+          t("projects.arduino.challenges.1"),
+          t("projects.arduino.challenges.2"),
+          t("projects.arduino.challenges.3"),
+          t("projects.arduino.challenges.4"),
         ],
         technologies: [
           { name: "C++", icon: <CPlusPlusIcon /> },
@@ -236,10 +236,10 @@ export default function Projects() {
       details: {
         fullDescription: t("projects.minigames.description"),
         challenges: [
-          "Built games such as Hangman, Mastermind (Motus), Tic Tac Toe, and Connect Four",
-          "Implemented user input handling, win conditions, and game flow",
-          "Applied loops, conditionals, and functions to create clean and reusable code",
-          "Explored event-driven basics in C",
+          t("projects.minigames.challenges.1"),
+          t("projects.minigames.challenges.2"),
+          t("projects.minigames.challenges.3"),
+          t("projects.minigames.challenges.4"),
         ],
         technologies: [
           { name: "C", icon: <CIcon /> },
@@ -258,10 +258,10 @@ export default function Projects() {
       details: {
         fullDescription: t("projects.sniffer.description"),
         challenges: [
-          "Built a packet capturing tool with raw socket programming",
-          "Parsed IP, TCP, and UDP headers",
-          "Displayed traffic in both hexadecimal and ASCII formats",
-          "Applied networking protocol knowledge and buffer management techniques",
+          t("projects.sniffer.challenges.1"),
+          t("projects.sniffer.challenges.2"),
+          t("projects.sniffer.challenges.3"),
+          t("projects.sniffer.challenges.4"),
         ],
         technologies: [
           { name: "C", icon: <CIcon /> },
@@ -280,10 +280,10 @@ export default function Projects() {
       details: {
         fullDescription: t("projects.gamejam.description"),
         challenges: [
-          "Designed and implemented core gameplay mechanics under tight constraints",
-          "Collaborated using Git and GitHub for version control",
-          "Balanced game difficulty and player progression",
-          "Delivered and presented a polished prototype within the given theme",
+          t("projects.gamejam.challenges.1"),
+          t("projects.gamejam.challenges.2"),
+          t("projects.gamejam.challenges.3"),
+          t("projects.gamejam.challenges.4"),
         ],
         technologies: [
           { name: "Godot Engine", icon: <GodotIcon /> },
@@ -304,12 +304,12 @@ export default function Projects() {
       details: {
         fullDescription: t("projects.tryhackme.description"),
         challenges: [
-          "Performed reconnaissance and scanning with Nmap and custom scripts",
-          "Captured and analyzed traffic with Wireshark",
-          "Cracked passwords using Hydra and John the Ripper",
-          "Gained root access through privilege escalation on Linux and Windows VMs",
-          "Solved web-based vulnerabilities (XSS, SQLi, CSRF, etc.)",
-          "Simulated real-world attacks in sandbox environments",
+          t("projects.tryhackme.challenges.1"),
+          t("projects.tryhackme.challenges.2"),
+          t("projects.tryhackme.challenges.3"),
+          t("projects.tryhackme.challenges.4"),
+          t("projects.tryhackme.challenges.5"),
+          t("projects.tryhackme.challenges.6"),
         ],
         technologies: [
           { name: "Kali Linux", icon: <KaliIcon /> },
@@ -330,10 +330,10 @@ export default function Projects() {
       details: {
         fullDescription: t("projects.pacman.description"),
         challenges: [
-          "Programmed player and enemy movement logic with basic AI",
-          "Managed collision detection, scoring, and win conditions",
-          "Built a graphical interface with menus and HUD elements",
-          "Applied object-oriented programming principles in a playful context",
+          t("projects.pacman.challenges.1"),
+          t("projects.pacman.challenges.2"),
+          t("projects.pacman.challenges.3"),
+          t("projects.pacman.challenges.4"),
         ],
         technologies: [
           { name: "C#", icon: <CSharpIcon /> },

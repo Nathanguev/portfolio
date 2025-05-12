@@ -95,24 +95,56 @@ const translations = {
     "projects.server.title": "Personal Ubuntu Server",
     "projects.server.description":
       "Set up and configured a personal Ubuntu server from scratch, hosting web and file services with a strong focus on security best practices.",
+    "projects.server.challenges.1": "Initial installation and setup of the Linux server environment",
+    "projects.server.challenges.2": "Deployed a web server using Nginx",
+    "projects.server.challenges.3": "Applied UFW rules and hardened the system with Fail2Ban",
+    "projects.server.challenges.4": "Secured SSH access using key-based authentication, disabling password login",
+    "projects.server.challenges.5": "Automated security updates and system monitoring",
+    "projects.server.challenges.6": "Developed Bash scripts for maintenance and system tasks",
     "projects.arduino.title": "Arduino Projects",
     "projects.arduino.description":
       "Designed and built multiple interactive Arduino-based projects combining embedded programming, 3D-printed components, and circuit design.",
+    "projects.arduino.challenges.1": "Built custom circuits with sensors, LCD displays, and buttons",
+    "projects.arduino.challenges.2": "Programmed microcontrollers to control LEDs, motors, and sensors",
+    "projects.arduino.challenges.3": "Designed and printed functional enclosures using 3D printers",
+    "projects.arduino.challenges.4": "Experimented with basic embedded systems and analog input/output",
     "projects.minigames.title": "Mini-Games",
     "projects.minigames.description":
       "Developed several classic terminal-based games to practice programming logic, data structures, and modular design.",
+    "projects.minigames.challenges.1": "Built games such as Hangman, Mastermind (Motus), Tic Tac Toe, and Connect Four",
+    "projects.minigames.challenges.2": "Implemented user input handling, win conditions, and game flow",
+    "projects.minigames.challenges.3": "Applied loops, conditionals, and functions to create clean and reusable code",
+    "projects.minigames.challenges.4": "Explored event-driven basics in C",
     "projects.sniffer.title": "Network Sniffer",
     "projects.sniffer.description":
       "Created a custom network packet sniffer in C that analyzes traffic in real-time using raw socket access under Linux.",
+    "projects.sniffer.challenges.1": "Built a packet capturing tool with raw socket programming",
+    "projects.sniffer.challenges.2": "Parsed IP, TCP, and UDP headers",
+    "projects.sniffer.challenges.3": "Displayed traffic in both hexadecimal and ASCII formats",
+    "projects.sniffer.challenges.4": "Applied networking protocol knowledge and buffer management techniques",
     "projects.gamejam.title": "Code Game Jam 2024",
     "projects.gamejam.description":
       "Participated in the 2024 Code Game Jam, building a complete game in a 6-person team within a 30-hour time limit.",
+    "projects.gamejam.challenges.1": "Designed and implemented core gameplay mechanics under tight constraints",
+    "projects.gamejam.challenges.2": "Collaborated using Git and GitHub for version control",
+    "projects.gamejam.challenges.3": "Balanced game difficulty and player progression",
+    "projects.gamejam.challenges.4": "Delivered and presented a polished prototype within the given theme",
     "projects.tryhackme.title": "TryHackMe Cybersecurity Training",
     "projects.tryhackme.description":
       "Completed hands-on cybersecurity training on TryHackMe, focusing on ethical hacking, vulnerability assessment, and network analysis.",
+    "projects.tryhackme.challenges.1": "Performed reconnaissance and scanning with Nmap and custom scripts",
+    "projects.tryhackme.challenges.2": "Captured and analyzed traffic with Wireshark",
+    "projects.tryhackme.challenges.3": "Cracked passwords using Hydra and John the Ripper",
+    "projects.tryhackme.challenges.4": "Gained root access through privilege escalation on Linux and Windows VMs",
+    "projects.tryhackme.challenges.5": "Solved web-based vulnerabilities (XSS, SQLi, CSRF, etc.)",
+    "projects.tryhackme.challenges.6": "Simulated real-world attacks in sandbox environments",
     "projects.pacman.title": "PacMan-Inspired Game",
     "projects.pacman.description":
       "Developed a 2D game inspired by Pac-Man using Windows Forms for GUI and event handling.",
+    "projects.pacman.challenges.1": "Programmed player and enemy movement logic with basic AI",
+    "projects.pacman.challenges.2": "Managed collision detection, scoring, and win conditions",
+    "projects.pacman.challenges.3": "Built a graphical interface with menus and HUD elements",
+    "projects.pacman.challenges.4": "Applied object-oriented programming principles in a playful context",
 
     // More
     "more.title": "More About Me",
@@ -269,25 +301,63 @@ const translations = {
     "projects.livedemo": "Démo en direct",
     "projects.server.title": "Serveur Ubuntu Personnel",
     "projects.server.description":
-      "Configuration d'un serveur Ubuntu personnel à partir de zéro, hébergeant des services web et de fichiers avec un accent fort sur les meilleures pratiques de sécurité.",
+      "Configuration d'un serveur Ubuntu personnel à partir de zéro, hébergeant un service web et un cloud avec un accent fort sur les meilleures pratiques de sécurité.",
+    "projects.server.challenges.1": "Installation et configuration initiale du serveur Linux",
+    "projects.server.challenges.2": "Mise en place d'un serveur web avec Nginx",
+    "projects.server.challenges.3": "Application des règles UFW et renforcement de la sécurité avec Fail2Ban",
+    "projects.server.challenges.4": 
+      "Protection de l'accès SSH avec une authentification par clé, désactivation de la connexion par mot de passe",
+    "projects.server.challenges.5": "Automatisation des mises à jour de sécurité",
+    "projects.server.challenges.6": "Développement de scripts Bash pour la maintenance et les tâches système",
     "projects.arduino.title": "Projets Arduino",
     "projects.arduino.description":
       "Conception et construction de plusieurs projets interactifs basés sur Arduino combinant programmation embarquée, composants imprimés en 3D et conception de circuits.",
+    "projects.arduino.challenges.1": "Conception de circuits sur mesure avec des capteurs, des écrans LCD et des boutons",
+    "projects.arduino.challenges.2": "Programmation de microcontrôleurs pour contrôler des LED, des moteurs et des capteurs",
+    "projects.arduino.challenges.3": "Conception et impression de boîtiers fonctionnelles à l'imprimante 3D",
+    "projects.arduino.challenges.4": "Expérimentation avec des systèmes embarqués de base et des entrées/sorties analogiques",
     "projects.minigames.title": "Mini-Jeux",
     "projects.minigames.description":
       "Développement de plusieurs jeux classiques en ligne de commande pour pratiquer la logique de programmation, les structures de données et la conception modulaire.",
+    "projects.minigames.challenges.1": "Création de jeux comme le Pendu, Mastermind (Motus), Tic-Tac-Toe et Puissance 4",
+    "projects.minigames.challenges.2": 
+      "Mise en place de la gestion des entrées utilisateur, des conditions de victoire et du déroulement du jeu",
+    "projects.minigames.challenges.3": 
+      "Utilisation de boucles, de conditions et de fonctions pour créer un code propre et réutilisable",
+    "projects.minigames.challenges.4": "Exploration des bases de la programmation événementielle en C",
     "projects.sniffer.title": "Sniffer Réseau",
     "projects.sniffer.description":
       "Création d'un sniffer de paquets réseau personnalisé en C analysant le trafic en temps réel en utilisant l'accès aux sockets bruts sous Linux.",
+    "projects.sniffer.challenges.1": "Création d'un outil de capture de paquets avec la programmation de sockets bruts",
+    "projects.sniffer.challenges.2": "Analyse des en-têtes IP, TCP et UDP",
+    "projects.sniffer.challenges.3": "Affichage du trafic en formats hexadécimal et ASCII",
+    "projects.sniffer.challenges.4": 
+      "Application des connaissances en protocoles réseau et des techniques de gestion des tampons",
     "projects.gamejam.title": "Code Game Jam 2024",
     "projects.gamejam.description":
       "Participation à la Code Game Jam 2024, construction d'un jeu complet en équipe de 6 personnes dans un délai de 30 heures.",
+    "projects.gamejam.challenges.1": 
+    "Conception et mise en œuvre des mécaniques de jeu principales sous des contraintes strictes",
+    "projects.gamejam.challenges.2": "Collaboration avec Git et GitHub pour le contrôle de version",
+    "projects.gamejam.challenges.3": "Équilibrage de la difficulté du jeu et de la progression du joueur",
+    "projects.gamejam.challenges.4": "Livraison et présentation d'un prototype soigné dans le cadre du thème donné",
     "projects.tryhackme.title": "Formation Cybersécurité TryHackMe",
     "projects.tryhackme.description":
       "Formation pratique en cybersécurité sur TryHackMe, axée sur le piratage éthique, l'évaluation des vulnérabilités et l'analyse de réseau.",
+    "projects.tryhackme.challenges.1": "Effectuer de la reconnaissance et des scans avec Nmap et des scripts personnalisés",
+    "projects.tryhackme.challenges.2": "Capturer et analysé du trafic avec Wireshark",
+    "projects.tryhackme.challenges.3": "Cracker des mots de passe avec Hydra et John the Ripper",
+    "projects.tryhackme.challenges.4": 
+      "Obtenir  un accès root via une escalade de privilèges sur des machines virtuelles Linux et Windows",
+    "projects.tryhackme.challenges.5": "Résoudre des vulnérabilités web (XSS, SQLi, CSRF, etc.)",
+    "projects.tryhackme.challenges.6": "Simuler des attaques réelles dans des environnements sandbox",
     "projects.pacman.title": "Jeu inspiré de PacMan",
-    "projects.pacman.description":
+    "projects.pacman.description": 
       "Développement d'un jeu 2D inspiré de Pac-Man utilisant Windows Forms pour l'interface graphique et la gestion des événements.",
+    "projects.pacman.challenges.1": "Programmer la logique de mouvement du joueur et de l'ennemi avec une IA de base",
+    "projects.pacman.challenges.2": "Gérer la détection de collisions, les scores et les conditions de victoire",
+    "projects.pacman.challenges.3": "Créer une interface graphique avec des menus et des éléments HUD",
+    "projects.pacman.challenges.4": "Appliquer les principes de la programmation orientée objet dans un contexte ludique",
 
     // More
     "more.title": "Plus sur moi",
