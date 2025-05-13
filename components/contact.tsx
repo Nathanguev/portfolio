@@ -203,13 +203,13 @@ export default function Contact() {
                   </div>
                   <div className="flex items-center gap-3">
                     <Linkedin className="h-5 w-5 text-primary" />
-                    <a href="https://www.linkedin.com/in/nathan-guevara-84b7002a4/" className="text-sm font-mono hover:text-primary transition-colors">
+                    <a href="https://www.linkedin.com/in/nathan-guevara-84b7002a4/" className="text-sm font-mono hover:text-primary transition-colors" target="_blank">
                       LinkedIn
                     </a>
                   </div>
                   <div className="flex items-center gap-3">
                     <Github className="h-5 w-5 text-primary" />
-                    <a href="https://github.com/Nathanguev" className="text-sm font-mono hover:text-primary transition-colors">
+                    <a href="https://github.com/Nathanguev" className="text-sm font-mono hover:text-primary transition-colors" target="_blank">
                       Github
                     </a>
                   </div>
